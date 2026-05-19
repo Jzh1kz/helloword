@@ -1,0 +1,13 @@
+---
+description: helloword 项目通用开发约定
+alwaysApply: true
+---
+
+# helloword 项目规则
+
+- 技术栈：Node.js，入口 `index.js`，无框架依赖除非用户明确要求
+- 修改后运行 `npm start` 验证输出仍为 `Hello, World!` 或用户要求的行为
+- 保持改动最小，不重构无关代码
+- 不新增第三方依赖，除非用户同意
+- 提交前确认未包含 `node_modules`、`.env` 或密钥
+- 用中文与用户沟通；代码与注释可用英文
